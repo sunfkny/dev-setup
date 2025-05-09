@@ -27,34 +27,37 @@ export default defineConfig({
   description: "A comprehensive guide for setting up development environments and tools",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local',
+    },
     nav: [
       { text: "Home", link: "/" },
       // { text: "Examples", link: "/markdown-examples" },
     ],
-
     sidebar: [
       {
         text: "CLI",
+        base: "/cli/",
         items: [
-          { text: "Windows Terminal", link: "/cli/windows-terminal" },
-          { text: "PowerShell", link: "/cli/powershell" },
-          { text: "Starship", link: "/cli/starship" },
+          { text: "Windows Terminal", link: "windows-terminal" },
+          { text: "PowerShell", link: "powershell" },
+          { text: "Starship", link: "starship" },
         ],
       },
       {
         text: "Python",
-        items: [{ text: "uv", link: "/python/uv" }],
+        base: "/python/",
+        items: [{ text: "uv", link: "uv" }],
       },
       {
         text: "JavaScript",
-        items: [{ text: "fnm", link: "/javascript/fnm" }],
+        base: "/javascript/",
+        items: [{ text: "fnm", link: "fnm" }],
       },
     ],
-
     socialLinks: [
       { icon: "github", link: "https://github.com/sunfkny/dev-setup" },
     ],
-
     editLink: {
       pattern: "https://github.com/sunfkny/dev-setup/blob/main/:path",
       text: "Edit this page on GitHub",
