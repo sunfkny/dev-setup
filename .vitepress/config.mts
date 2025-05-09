@@ -54,5 +54,17 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/sunfkny/dev-setup" },
     ],
+
+    editLink: {
+      pattern: "https://github.com/sunfkny/dev-setup/blob/main/:path",
+      text: "Edit this page on GitHub",
+    },
+    lastUpdated: {
+      text: "Last Updated",
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'short',
+      },
+    },
   },
 });
