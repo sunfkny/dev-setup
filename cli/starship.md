@@ -23,5 +23,6 @@ Invoke-Expression (&starship init powershell)
 ### Presets
 
 ```powershell
-starship preset plain-text-symbols -o ~/.config/starship.toml
+New-Item -ItemType Directory -Path $HOME\.config -Force
+starship preset plain-text-symbols -o $HOME\.config\starship.toml
 ```
