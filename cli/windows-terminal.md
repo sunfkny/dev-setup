@@ -6,8 +6,6 @@
 
 ### Install from Microsoft Store
 
-The recommended way to install Windows Terminal is through the Microsoft Store:
-
 1. Open Microsoft Store
 2. Search for "Windows Terminal"
 3. Select "Windows Terminal" published by Microsoft
@@ -23,4 +21,4 @@ winget install Microsoft.WindowsTerminal
 
 1. Visit the [Windows Terminal releases page](https://github.com/microsoft/terminal/releases)
 2. Download the latest stable release (e.g., Microsoft.WindowsTerminal_x.x.x.0_8wekyb3d8bbwe.msixbundle)
-3. Double-click the downloaded file to install
+3. Run the installer

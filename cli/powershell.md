@@ -6,8 +6,6 @@
 
 ### Install from Microsoft Store
 
-The easiest way to install PowerShell is through the Microsoft Store:
-
 1. Open Microsoft Store
 2. Search for "PowerShell"
 3. Select "PowerShell" published by Microsoft
