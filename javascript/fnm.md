@@ -12,7 +12,7 @@
 ```
 
 ```bash
-cat <<EOF > ~/.bashrc
+cat <<EOF >> ~/.bashrc
 export FNM_NODE_DIST_MIRROR=https://registry.npmmirror.com/-/binary/node/
 EOF
 ```
