@@ -8,12 +8,12 @@
 ::: code-group
 
 ```PowerShell
-[Environment]::SetEnvironmentVariable("FNM_NODE_DIST_MIRROR", "https://registry.npmmirror.com/-/binary/node/", "User")
+setx FNM_NODE_DIST_MIRROR "https://npmmirror.com/mirrors/node"
 ```
 
 ```bash
 cat <<EOF >> ~/.bashrc
-export FNM_NODE_DIST_MIRROR=https://registry.npmmirror.com/-/binary/node/
+export FNM_NODE_DIST_MIRROR=https://npmmirror.com/mirrors/node
 EOF
 ```
 
