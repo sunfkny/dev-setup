@@ -52,7 +52,10 @@ export default defineConfig({
       {
         text: "JavaScript",
         base: "/javascript/",
-        items: [{ text: "fnm", link: "fnm" }],
+        items: [
+          { text: "fnm", link: "fnm" },
+          { text: "npm", link: "npm" },
+        ],
       },
     ],
     socialLinks: [
