@@ -2,17 +2,18 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-npm%2fcli-000000?style=flat&logo=github)](https://github.com/npm/cli)
 
-
 the package manager for JavaScript
 
 ## Configuration mirror
 
-### npm
-```
+```shell
 npm config set registry "https://registry.npmmirror.com"
 ```
 
+## Other package manager
+
 ### bun
+
 ::: code-group
 
 ```PowerShell
@@ -32,17 +33,21 @@ EOF
 :::
 
 ### pnpm
-```
+
+```shell
 pnpm config set registry "https://registry.npmmirror.com"
 ```
 
 ### yarn
+
 #### berry (>=2)
-```
+
+```shell
 yarn config set npmRegistryServer "https://registry.npmmirror.com"
 ```
+
 #### classic (v1)
-```
+
+```shell
 yarn config set registry "https://registry.npmmirror.com"
 ```
-

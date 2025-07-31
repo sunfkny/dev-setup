@@ -4,7 +4,36 @@
 
 🚀 Fast and simple Node.js version manager, built in Rust
 
+## Installation
+
+::: code-group
+
+```PowerShell
+winget install Schniz.fnm
+```
+
+```bash
+curl -fsSL https://fnm.vercel.app/install | bash
+```
+
+:::
+
+## Shell Setup
+
+::: code-group
+
+```PowerShell
+"fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression" | Out-File -FilePath $PROFILE -Append
+```
+
+```bash
+echo "eval \"\$(fnm env --use-on-cd --shell bash)\"" >> ~/.bashrc
+```
+
+:::
+
 ## Configuration mirror
+
 ::: code-group
 
 ```PowerShell

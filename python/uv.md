@@ -4,7 +4,22 @@
 
 An extremely fast Python package and project manager, written in Rust.
 
+## Installation
+
+::: code-group
+
+```PowerShell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+:::
+
 ## Configuration mirror
+
 ::: code-group
 
 ```PowerShell

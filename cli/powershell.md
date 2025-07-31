@@ -89,8 +89,8 @@ function Set-Proxy {
 A PowerShell environment for Git
 
 #### Recommended settings for posh-git
+
 ```powershell
 $GitPromptSettings.EnablePromptStatus = $false
 $GitPromptSettings.EnableFileStatus = $false
 ```
-
