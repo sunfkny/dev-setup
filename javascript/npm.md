@@ -51,3 +51,9 @@ yarn config set npmRegistryServer "https://registry.npmmirror.com"
 ```shell
 yarn config set registry "https://registry.npmmirror.com"
 ```
+
+## Recommend Configuration
+
+```bash
+pnpm config set verify-deps-before-run=install
+```
