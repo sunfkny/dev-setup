@@ -54,6 +54,9 @@ function Edit-Profile {
     code $PROFILE 
 }
 
+# Set UTF-8 encoding for output
+function Set-UTF8 { $OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::UTF8 }
+
 # Set proxy environment variable
 function Set-Proxy {
     param (
