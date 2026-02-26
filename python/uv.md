@@ -30,6 +30,16 @@ curl -LsSf $GITHUB_MIRROR/astral-sh/uv/releases/latest/download/uv-installer.sh 
 
 :::
 
+::: details Other Github proxy
+
+- <http://gh-proxy.org/https://github.com>
+- <http://v6.gh-proxy.org/https://github.com>
+- <http://hk.gh-proxy.org/https://github.com>
+- <https://github.geekery.cn/https://github.com>
+- <https://github.chenc.dev/https://github.com>
+
+:::
+
 ## Configuration mirror
 
 ::: code-group
