@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: Modern CLI Tools
-    details: Configure Windows Terminal, PowerShell, and Starship for a powerful command-line experience
+    details: Configure Windows Terminal and PowerShell for a powerful command-line experience
   - title: Language Environments
     details: Set up Python and JavaScript development environments with best practices and modern tools
   - title: Best Practices

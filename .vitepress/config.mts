@@ -41,7 +41,6 @@ export default defineConfig({
         items: [
           { text: "Windows Terminal", link: "windows-terminal" },
           { text: "PowerShell", link: "powershell" },
-          { text: "Starship", link: "starship" },
         ],
       },
       {
