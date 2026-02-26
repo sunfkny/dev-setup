@@ -76,21 +76,8 @@ function Set-Proxy {
 
 ## Useful Links
 
-### PwshComplete
+### PSCompletions
 
-[![GitHub](https://img.shields.io/badge/GitHub-artiga033%2FPwshComplete-000000?style=flat&logo=github)](https://github.com/artiga033/PwshComplete)
+[![GitHub](https://img.shields.io/badge/GitHub-abgox%2FPSCompletions-000000?style=flat&logo=github)](https://github.com/abgox/PSCompletions)
 
-\<TAB\> completions with PowerShell for many popular cli tools
-
-### posh-git
-
-[![GitHub](https://img.shields.io/badge/GitHub-dahlbyk%2Fposh--git-000000?style=flat&logo=github)](https://github.com/dahlbyk/posh-git)
-
-A PowerShell environment for Git
-
-#### Recommended settings for posh-git
-
-```powershell
-$GitPromptSettings.EnablePromptStatus = $false
-$GitPromptSettings.EnableFileStatus = $false
-```
+A completion manager for a better and simpler tab-completion experience in PowerShell.
